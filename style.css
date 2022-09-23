@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding: 50px;
+    text-align: center;
+    border: solid 1px black;
+    background-color: gray;
+}
+
+footer{
+    background-color: rgb(73, 72, 72);
+    color: white;
+    text-align:center;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+}
+form {
+    text-align: center;
+}
+
+section{
+    padding: 20px;
+    background-color: beige;
+    text-align: center;
+}
+
+#link{
+    color: rgb(139, 139, 214)
+}
