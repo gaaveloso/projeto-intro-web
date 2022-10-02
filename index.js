@@ -25,7 +25,7 @@ terceiroProduto = {
 }
 
 quartoProduto = {
-    roupa: "camiseta",
+    roupa: "calça",
     preco: 40.00.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' }),
     masculino: true,
     cor: cor[3]
@@ -81,4 +81,4 @@ const carrinho = []
         }
         return arrayString
     }
-    console.log(retornaObjeto(carrinho,"camiseta"))
+    console.log(retornaObjeto(carrinho,"calça"))
