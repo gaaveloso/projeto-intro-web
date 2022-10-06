@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja Do Velosinho</title>
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="container">
     <header>
-        <h1>Loja do Velosinho</h1>
+        <h1><a href="./index.html">Loja do Velosinho</a></h1>
     </header>
     <main>
         <section>
             <form>
                 <input type="text" id="input" name="input" placeholder="Digite aqui">
-                <button type="submit" id="botao"><img src="./img/search-interface-symbol.png" id="icone-lupa"></button>
+                <button type="button" id="botao"><img src="./img/search-interface-symbol.png" id="icone-lupa" onclick="pesquisar()"></button>
             </form>
         </section>
         <section id="elementos">
             <section>
-                <ul class="card">
+                <ul class="card" id="camiseta">
                     <img src="./img/camiseta-verde.png" class="img">
                     <div class="container-card">
                         <li>Roupa: <a href="https://pt.wikipedia.org/wiki/Camiseta" target="_blank">Camiseta</a></li>
@@ -34,19 +34,19 @@
             </section>
             <section>
                 <ul class="card">
-                    <img src="./img/calcas-calca-skinny-alfaiataria-gelo-minsk-p-1634333832642.png" class="img">
-                    <div class="container-card">
-                        <li>Roupa: <a href="https://pt.wikipedia.org/wiki/Cal%C3%A7as" target="_blank">Calça</a></li>
+                    <img src="./img/Bermuda-Jeans-Used-c-Puidos-IMD-Jeans-Jeans-Escuro.png" class="img">
+                    <div class="container-card" >
+                        <li>Roupa: <a href="https://pt.wikipedia.org/wiki/Cal%C3%A7%C3%A3o" target="_blank">Short</a></li>
                         <li>Preço: R$50,00</li>
-                        <li>Sexo: Feminino</li>
+                        <li>Sexo: Masculino</li>
                         <li>Cor: Jeans</li>
                     </div>
                 </ul>
             </section>
             <section>
-                    <ul class="card">
+                    <ul class="card" id="cueca">
                     <img src="./img/cueca-rosa.png" class="img">
-                    <div class="container-card">
+                    <div class="container-card" >
                         <li>Roupa: <a href="https://pt.wikipedia.org/wiki/Cuecas" target="_blank">Cueca</a></li>
                         <li>Preço: R$15,00</li>
                         <li>Sexo: Masculino</li>
@@ -57,7 +57,7 @@
             <section>
                 <ul class="card">
                     <img src="./img/calca-masculina.png" class="img">
-                    <div class="container-card">
+                    <div class="container-card" >
                         <li>Roupa: <a href="https://pt.wikipedia.org/wiki/Cal%C3%A7as" target="_blank">Calça</a></li>
                         <li>Preço: R$40,00</li>
                         <li>Sexo: Masculino</li>

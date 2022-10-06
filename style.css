@@ -59,6 +59,7 @@ align-items: center;
 
 a{
     color: white;
+    text-transform: uppercase;
 }
 
 .img:hover{
@@ -92,6 +93,7 @@ section{
     padding: 20px;
     background-color: beige;
     text-align: center;
+
 }
 
 #link{
